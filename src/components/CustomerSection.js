@@ -5,7 +5,11 @@ const CustomerSection = () => {
   return (
     <section className="customer">
       <h2>Our Customers</h2>
-      <img className="underline" src="../../images/underline 3.png" alt="" />
+      <img
+        className="underline"
+        src="../../public/images/underline 3.png"
+        alt=""
+      />
       <div className="customer-logos">
         <img src="../../images/image_1-removebg-preview.png" alt="" />
         <img src="../../images/image_2-removebg-preview.png" alt="" />
