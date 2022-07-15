@@ -1,0 +1,109 @@
+.pricing {
+  width: 100%;
+  padding: 100px 0;
+}
+.pricing .sectionTitle {
+  font-family: "Overlock";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.pricing .sectionTitle .underline {
+  width: 150px;
+}
+.pricing .sectionTitle p {
+  width: 585px;
+  margin: 20px auto;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.pricing .btn-grp {
+  text-align: center;
+}
+.pricing .btn-grp button {
+  width: 100px;
+  margin-right: 25px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+  border: none;
+  border-radius: 7px;
+  background: #2d5bff;
+  color: white;
+  cursor: pointer;
+}
+.pricing .btn-grp .active {
+  background: #3088ff29;
+  color: black;
+}
+.pricing .packages {
+  width: 90%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pricing .packages .package {
+  width: 30%;
+  padding: 10px;
+  background: #3088ff0d;
+  border-radius: 12px;
+}
+.pricing .packages .package .pkg-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Overlock";
+  font-weight: 700;
+}
+.pricing .packages .package .pkg-title h3 {
+  font-size: 28px;
+  position: relative;
+}
+.pricing .packages .package .pkg-title h3::before {
+  /* Highlight color */
+  background-color: #f6a00e;
+
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 30%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+.pricing .packages .package .pkg-title p {
+  font-size: 24px;
+}
+.pricing .packages .package ul {
+  padding: 0;
+  list-style: none;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing .packages .package li {
+  padding: 5px 0;
+}
+.pricing .packages .package li i {
+  padding-right: 10px;
+}
+.pricing .packages .package button {
+  width: 90%;
+  margin: 30px 5%;
+  padding: 10px 0;
+  background: #f6a00e;
+  color: white;
+  font-family: "Overlock";
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}

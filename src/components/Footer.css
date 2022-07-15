@@ -1,0 +1,94 @@
+.footer {
+  width: 100%;
+  margin: 100px 0 0 0;
+  padding: 50px 0;
+  background: #f6a00e0d;
+}
+.footer .cta {
+  width: 90%;
+  padding: 20px 40px;
+  margin: 0 auto;
+  background: #2d5bff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
+.footer .cta h2 {
+  font-family: "Overlock";
+  font-size: 36px;
+  font-weight: 700;
+  width: 25%;
+}
+.footer .cta button {
+  padding: 15px 20px;
+  border: none;
+  background: white;
+  color: #2d5bff;
+  text-transform: uppercase;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer .footer-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .footer-content .f1,
+.footer .footer-content .f2,
+.footer .footer-content .f3,
+.footer .footer-content .f4 {
+  width: 22%;
+}
+.footer .footer-content .f1 p {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .footer-content .f1 h5 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer .footer-content .f1 i {
+  padding-right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s all ease-in;
+}
+.footer .footer-content .f1 i:hover {
+  color: #2d5bff;
+}
+.footer .footer-content .list p {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer .footer-content .list ul {
+  padding: 0;
+}
+.footer .footer-content .list li {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.footer .footer-bottom {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid #04041529;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+}

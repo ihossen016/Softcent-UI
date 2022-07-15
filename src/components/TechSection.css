@@ -1,0 +1,39 @@
+.techList {
+  width: 100%;
+  padding: 60px 0;
+}
+.techList .sectionTitle {
+  text-align: center;
+  padding: 50px 0;
+}
+.techList .sectionTitle .underline {
+  width: 236px;
+}
+.techList .sectionTitle h2 {
+  font-family: "Overlock";
+  font-size: 36px;
+  font-weight: 700;
+}
+.techList .nameList {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.techList .nameList .name {
+  width: 24%;
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.techList .imgList {
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

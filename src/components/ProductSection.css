@@ -1,0 +1,93 @@
+.product {
+  width: 100%;
+  padding: 30px 0;
+  background: #f9f9f9;
+}
+.product .sectionTitle,
+.sub {
+  width: 90%;
+  margin: 0 auto;
+}
+.product .sectionTitle .underline {
+  width: 200px;
+}
+.product .sub {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product .sub p {
+  width: 45%;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+}
+.product .sub button {
+  background: #2d5bff;
+  color: white;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.product .prod1 {
+  width: 100%;
+  height: 585px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 50px;
+}
+.product .prod2 {
+  width: 100%;
+  height: 585px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.prod1 .prod-detail,
+.prod2 .prod-detail {
+  width: 40%;
+  height: inherit;
+  background: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.grid-center {
+  padding: 0 40px;
+}
+.prod1 .prod-detail h3,
+.prod2 .prod-detail h3 {
+  font-family: "Overlock";
+  font-size: 36px;
+  font-weight: 700;
+}
+.prod1 .prod-detail p,
+.prod2 .prod-detail p {
+  font-family: "Nunito";
+  font-size: 15px;
+  font-weight: 500;
+}
+.prod1 .prod-detail button,
+.prod2 .prod-detail button {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  background: #3088ff1f;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.prod1 .prod-image,
+.prod2 .prod-image {
+  width: 50%;
+  height: inherit;
+}

@@ -1,0 +1,36 @@
+.workflow {
+  width: 100%;
+  padding: 40px 0;
+  background: #f9f9f9;
+}
+.workflow .sectionTitle {
+  text-align: center;
+  padding: 50px 0;
+}
+.workflow .sectionTitle .underline {
+  width: 170px;
+}
+.workflow .sectionTitle h2 {
+  font-family: "Overlock";
+  font-size: 36px;
+  font-weight: 700;
+}
+.workflow .flow {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.workflow .flow .acc,
+.workflow .flow .img {
+  width: 45%;
+}
+.workflow .flow .acc {
+  font-family: "Overlock";
+  font-size: 24px;
+  font-weight: 400;
+}
+.workflow .flow .acc li {
+  padding: 10px 0;
+}

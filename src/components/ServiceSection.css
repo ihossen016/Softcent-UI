@@ -1,0 +1,46 @@
+.service {
+  width: 100%;
+  padding: 20px 0;
+}
+.service .sectionTitle {
+  width: 90%;
+  margin: 0 auto;
+}
+.sectionTitle h2 {
+  font-size: 36px;
+  font-family: "Overlock";
+  font-weight: 700;
+}
+.service .sectionTitle .underline {
+  width: 180px;
+}
+.service .serviceList {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.serviceList .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title h3 {
+  font-family: "Overlock";
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+.serviceList .list {
+  list-style: none;
+  padding: 0;
+}
+.serviceList .list li {
+  padding: 10px 0;
+  font-family: "Nunito";
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}

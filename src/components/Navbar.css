@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  margin: 0;
+  font-family: "Nunito";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  padding: 10px 0;
+  text-align: center;
+}
+.logo img {
+  width: 132px;
+}
+.links {
+  width: 60%;
+  text-align: right;
+}
+.links a {
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #040415;
+}
+.nav-btn {
+  width: 20%;
+  text-align: center;
+}
+.nav-btn button {
+  padding: 15px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #3088ff;
+  color: white;
+  box-shadow: 16px 16px 28px rgba(48, 136, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

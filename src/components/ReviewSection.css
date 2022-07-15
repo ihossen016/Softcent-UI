@@ -1,0 +1,67 @@
+.review {
+  width: 100%;
+  padding: 50px 0;
+}
+.review .sectionTitle {
+  text-align: center;
+}
+.review .sectionTitle h2 {
+  font-family: "Overlock";
+  font-size: 36px;
+  font-weight: 700;
+}
+.review .sectionTitle .underline {
+  width: 150px;
+}
+.review .mainReview {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.review .mainReview .reviewText {
+  width: 45%;
+}
+.review .mainReview .reviewText p {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 500;
+  width: 88%;
+  margin-top: -50px;
+  margin-left: 12%;
+  text-align: left;
+}
+.review .mainReview .reviewText .quote2 {
+  margin-left: 50%;
+  margin-top: -50px;
+}
+.review .mainReview .reviewText .writer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review .mainReview .reviewText .writer .img {
+  width: 30%;
+  text-align: center;
+}
+.review .mainReview .reviewText .writer .info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.review .mainReview .reviewText .writer .info h3 {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+}
+.review .mainReview .reviewText .writer .info h4 {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+.review .mainReview .reviewImg {
+  width: 35%;
+}
